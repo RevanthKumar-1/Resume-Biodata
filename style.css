@@ -1,0 +1,92 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Main Resume Box */
+#box {
+    max-width: 800px;
+    background-color: #fff;
+    margin: auto;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 15px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#info h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#info h5, #details h5, #details h6 {
+    font-size: 14px;
+    margin: 2px 0;
+    color: #555;
+}
+
+#details {
+    margin-left: auto;
+    text-align: right;
+}
+
+/* Section Titles */
+main h4 {
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 5px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* Small spacing between sections */
+main h4, main p, main ul {
+    margin-bottom: 15px;
+}
